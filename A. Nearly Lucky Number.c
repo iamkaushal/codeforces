@@ -10,15 +10,8 @@ int main()
     for (int i=0, n=strlen(str); i<n;i++)
     {
         if(str[i]=='4'||str[i]=='7') luckydigit++;
-        else unluckydigit++;
     }
-    /*
-    if(unluckydigit==0)
-    {
-         printf("YES");
-         return 0;
-    }
-    */
+
     if(luckydigit==4||luckydigit==7) printf("YES");
     else printf("NO");
 
